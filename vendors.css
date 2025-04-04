@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+}
+header {
+  position: sticky;
+  top: 0;
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  box-shadow: 0 0 12px black;
+  background-color: white;
+}
+
+#content {
+  display: flex;
+}
+header img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+nav {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2%;
+  margin: 0;
+  margin: 1px solid black;
+}
+
+/* nav a {
+  font-size: 1.5rem;
+} */
+
+#vendors-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 2%;
+}
+#artisanlogo {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+#pagetitle {
+  margin: 0;
+  height: auto;
+  padding: 0;
+  border: 0;
+  border: 0px solid black;
+}
+#vendorlist {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  place-items: center;
+  row-gap: 30px;
+  column-gap: 10px;
+}
+#vendorlist div {
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  width: 20%;
+  border: 1px solid black;
+  margin: 0;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 1%;
+}
+
+ul {
+  list-style: none;
+  line-height: 2;
+  padding-left: 0;
+}
